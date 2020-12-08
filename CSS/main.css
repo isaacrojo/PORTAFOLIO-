@@ -1,0 +1,142 @@
+body {
+    background-image: linear-gradient(90deg, #000000, #2b10104b, #000000);
+    width: 95%;
+    height: 100%;
+    margin-top: 180px;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+.footer {
+    text-align: center;
+    padding: 4vw 5vw;
+    margin-top: 20px;
+}
+
+/* ---- Pagina de Inicio ----*/
+.inicio {
+    padding: 5%;
+    background-color: #a0a0a028;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.description-container {
+    background-color: rgba(255, 255, 255, 0.829);
+   /* margin: 5% 40% 5% 20%; */
+}
+.page-description {
+    padding: 3% 10%;
+    
+}
+.page-description h3, p {
+    
+}
+.page-intro {
+    background-color: rgba(255, 255, 255, 0.829);
+    display: flex;
+}
+.pic-container {
+    width: 90%;
+    padding: 2%;
+}
+.pic {
+    border: 3px solid black;
+    width: 100%;
+}
+.intro {
+    padding: 5%;
+}
+
+
+
+/* ---- Pagina de Videos ----*/
+.videos-page {
+    padding: 5%;
+}
+.videos {
+   display: grid;
+   /* grid-template-areas:
+   "videoEUFM" "video2020",
+   "videoBones" "videoCDMX"; */
+    background-color: rgba(255, 255, 255, 0.829);
+    padding: 2% 4%;
+}
+.video {
+    width: 35vw;
+}
+.video-grid {
+    padding: 3%;
+}
+
+.videoEUFM {
+    /* grid-area: "videoEUFM"; */
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+}
+
+.video2020 {
+   /* grid-area: "video2020"; */
+   grid-column: 2 / 3;
+   grid-row: 1 / 2;
+}
+
+.videoBones {
+  /*  grid-area: "videoBones"; */
+  grid-column: 1 / 2;
+   grid-row: 2 / 3;
+}
+
+.videoCDMX {
+    /*grid-area: "videoCDMX"; */
+    grid-column: 2 / 3;
+    grid-row: 2 / 3;
+
+}
+
+/* ---- Pagina de Fotografia ----*/
+.fb-post {
+    align-items: center;
+}
+.aviso {
+    text-align: center;
+    padding: 5%;
+}
+
+/* ---- Pagina de 3D ----*/
+.modelos-page {
+    padding: 5%;
+}
+.blender-logo {
+    width: 150px;
+    position: fixed;
+    right: 2%;
+    top: 2%;
+}
+.renders {
+
+    text-align: center;
+
+}
+
+.render {
+    display: inline;
+    width: 50vw;
+}
+
+/* ---- Pagina de Animacion ----*/
+.animacion {
+    padding: 5vw 15vw;
+}
+.description-cont {
+    background-color: rgba(255, 255, 255, 0.829);
+    display: grid;
+}
+
+.page-descr {
+    grid-column: 1 / 2;
+    padding: 10%;
+}
+.animation-video {
+    grid-column: 2 / 3;
+    padding: 10vw;
+}
